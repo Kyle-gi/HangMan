@@ -2,6 +2,10 @@ package com.kiarash.ahorcado.modelo;
 
 public class Partida {
 
+    public Partida() {
+
+    }
+
     public void newGame() {
 
     }
@@ -14,19 +18,15 @@ public class Partida {
 
     }
 
-    public void winStatus() {
+    public boolean winStatus() {
 
     }
 
-    public void lossStatus() {
+    public boolean lossStatus() {
 
     }
 
     public void displayProgress() {
-
-    }
-
-    public void fragmentedProgress() {
 
     }
 
@@ -35,6 +35,18 @@ public class Partida {
     }
 
     public void hint() {
+
+    }
+
+    public void palabraActual() {
+
+    }
+
+    public void intentosRestantes() {
+
+    }
+
+    public void letrasUsadas() {
 
     }
 }
